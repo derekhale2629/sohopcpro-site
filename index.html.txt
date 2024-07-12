@@ -1,0 +1,319 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoHoPCPro - Custom High-End PCs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #222;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            color: #444;
+        }
+        .build-showcase, .reviews, .contact-info {
+            margin-bottom: 40px;
+        }
+        .pc-build {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+        }
+        .pc-build img {
+            max-width: 200px;
+            margin-right: 20px;
+        }
+        .pc-build h3 {
+            margin-top: 0;
+        }
+        .actual-builds {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .actual-builds img {
+            max-width: 300px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .review {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SoHoPCPro</h1>
+    <p>Custom High-End Gaming and Workstation PCs</p>
+</header>
+
+<nav>
+    <a href="#showcase">Build Showcase</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="showcase" class="build-showcase">
+        <h2>Build Showcase</h2>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$1500 Build">
+            <div>
+                <h3>$1500 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen 5 7600X<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4060<br>
+                    <strong>Motherboard:</strong> MSI B650 TOMAHAWK<br>
+                    <strong>RAM:</strong> 16GB Corsair Vengeance LPX DDR5-5200<br>
+                    <strong>Storage:</strong> 1TB Samsung 970 EVO Plus NVMe SSD<br>
+                    <strong>PSU:</strong> Corsair RM650x 650W 80+ Gold<br>
+                    <strong>Case:</strong> NZXT H510<br>
+                    <strong>Cooler:</strong> Cooler Master Hyper 212 RGB<br>
+                    <strong>OS:</strong> Windows 11 Home
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$2000 Build">
+            <div>
+                <h3>$2000 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen 7 7700X<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4070<br>
+                    <strong>Motherboard:</strong> ASUS ROG Strix B650-F Gaming<br>
+                    <strong>RAM:</strong> 32GB Corsair Vengeance LPX DDR5-5200<br>
+                    <strong>Storage:</strong> 1TB Samsung 980 Pro NVMe SSD<br>
+                    <strong>PSU:</strong> Corsair RM750x 750W 80+ Gold<br>
+                    <strong>Case:</strong> Fractal Design Meshify C<br>
+                    <strong>Cooler:</strong> Noctua NH-D15<br>
+                    <strong>OS:</strong> Windows 11 Home
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$2500 Build">
+            <div>
+                <h3>$2500 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen 9 7900X<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4080<br>
+                    <strong>Motherboard:</strong> ASUS ROG Strix X670-E Gaming<br>
+                    <strong>RAM:</strong> 32GB Corsair Vengeance LPX DDR5-5600<br>
+                    <strong>Storage:</strong> 2TB Samsung 980 Pro NVMe SSD<br>
+                    <strong>PSU:</strong> Corsair RM850x 850W 80+ Gold<br>
+                    <strong>Case:</strong> Lian Li PC-O11 Dynamic<br>
+                    <strong>Cooler:</strong> Corsair iCUE H150i Elite Capellix<br>
+                    <strong>OS:</strong> Windows 11 Home
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$3000 Build">
+            <div>
+                <h3>$3000 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen 9 7950X<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4080 Ti<br>
+                    <strong>Motherboard:</strong> MSI MEG X670 ACE<br>
+                    <strong>RAM:</strong> 32GB G.Skill Trident Z5 RGB DDR5-6000<br>
+                    <strong>Storage:</strong> 2TB Samsung 990 Pro NVMe SSD<br>
+                    <strong>PSU:</strong> Corsair HX1000 1000W 80+ Platinum<br>
+                    <strong>Case:</strong> Corsair 5000D Airflow<br>
+                    <strong>Cooler:</strong> NZXT Kraken Z73<br>
+                    <strong>OS:</strong> Windows 11 Home
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$3500 Build">
+            <div>
+                <h3>$3500 Build</h3>
+                <p>
+                    <strong>CPU:</strong> Intel Core i9-13900K<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4090<br>
+                    <strong>Motherboard:</strong> ASUS ROG Maximus Z790 Hero<br>
+                    <strong>RAM:</strong> 64GB Corsair Dominator Platinum RGB DDR5-6000<br>
+                    <strong>Storage:</strong> 2TB Samsung 990 Pro NVMe SSD + 2TB Seagate Barracuda HDD<br>
+                    <strong>PSU:</strong> EVGA SuperNOVA 1000 G5 1000W 80+ Gold<br>
+                    <strong>Case:</strong> Phanteks Eclipse P600S<br>
+                    <strong>Cooler:</strong> be quiet! Dark Rock Pro 4<br>
+                    <strong>OS:</strong> Windows 11 Home
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$4000 Build">
+            <div>
+                <h3>$4000 Build</h3>
+                <p>
+                    <strong>CPU:</strong> Intel Core i9-13900K<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4090<br>
+                    <strong>Motherboard:</strong> ASUS ROG Maximus Z790 Hero<br>
+                    <strong>RAM:</strong> 64GB G.Skill Trident Z5 RGB DDR5-6400<br>
+                    <strong>Storage:</strong> 2TB Samsung 990 Pro NVMe SSD + 4TB Seagate Barracuda HDD<br>
+                    <strong>PSU:</strong> Seasonic Prime TX-1000 1000W 80+ Titanium<br>
+                    <strong>Case:</strong> Cooler Master MasterCase H500M<br>
+                    <strong
+
+>Cooler:</strong> Corsair iCUE H150i Elite Capellix<br>
+                    <strong>OS:</strong> Windows 11 Home
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$4500 Build">
+            <div>
+                <h3>$4500 Build</h3>
+                <p>
+                    <strong>CPU:</strong> Intel Core i9-13900K<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4090<br>
+                    <strong>Motherboard:</strong> ASUS ROG Maximus Z790 Hero<br>
+                    <strong>RAM:</strong> 64GB Corsair Dominator Platinum RGB DDR5-6400<br>
+                    <strong>Storage:</strong> 2TB Samsung 990 Pro NVMe SSD + 4TB Seagate FireCuda SSHD<br>
+                    <strong>PSU:</strong> Corsair AX1600i 1600W 80+ Titanium<br>
+                    <strong>Case:</strong> Lian Li O11 Dynamic XL<br>
+                    <strong>Cooler:</strong> EK-AIO Elite 360 D-RGB<br>
+                    <strong>OS:</strong> Windows 11 Pro
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$5000 Build">
+            <div>
+                <h3>$5000 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen 9 7950X<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4090<br>
+                    <strong>Motherboard:</strong> ASUS ROG Crosshair X670E Extreme<br>
+                    <strong>RAM:</strong> 128GB Corsair Vengeance RGB Pro DDR5-6400<br>
+                    <strong>Storage:</strong> 4TB Samsung 990 Pro NVMe SSD<br>
+                    <strong>PSU:</strong> Seasonic PRIME Ultra Titanium 1600W<br>
+                    <strong>Case:</strong> Cooler Master Cosmos C700P<br>
+                    <strong>Cooler:</strong> Custom Loop Liquid Cooling<br>
+                    <strong>OS:</strong> Windows 11 Pro
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$5500 Build">
+            <div>
+                <h3>$5500 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen 9 7950X<br>
+                    <strong>GPU:</strong> NVIDIA GeForce RTX 4090<br>
+                    <strong>Motherboard:</strong> ASUS ROG Crosshair X670E Extreme<br>
+                    <strong>RAM:</strong> 128GB Corsair Vengeance RGB Pro DDR5-6400<br>
+                    <strong>Storage:</strong> 4TB Samsung 990 Pro NVMe SSD + 4TB Seagate FireCuda SSHD<br>
+                    <strong>PSU:</strong> Corsair AX1600i 1600W 80+ Titanium<br>
+                    <strong>Case:</strong> Lian Li O11 Dynamic XL<br>
+                    <strong>Cooler:</strong> EK-Quantum Power P240 Water Cooling Kit<br>
+                    <strong>OS:</strong> Windows 11 Pro
+                </p>
+            </div>
+        </div>
+        <div class="pc-build">
+            <img src="https://via.placeholder.com/200" alt="$6000 Build">
+            <div>
+                <h3>$6000 Build</h3>
+                <p>
+                    <strong>CPU:</strong> AMD Ryzen Threadripper PRO 5995WX<br>
+                    <strong>GPU:</strong> Dual NVIDIA GeForce RTX 4090<br>
+                    <strong>Motherboard:</strong> ASUS Pro WS WRX80E-SAGE SE WIFI<br>
+                    <strong>RAM:</strong> 256GB Corsair Vengeance RGB Pro DDR4-3600<br>
+                    <strong>Storage:</strong> 8TB Samsung 990 Pro NVMe SSD<br>
+                    <strong>PSU:</strong> Corsair AX1600i 1600W 80+ Titanium<br>
+                    <strong>Case:</strong> Phanteks Enthoo Elite<br>
+                    <strong>Cooler:</strong> Custom Loop Liquid Cooling with Dual 480mm Radiators<br>
+                    <strong>OS:</strong> Windows 11 Pro
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="actual-builds" class="actual-builds">
+        <h2>Actual Builds</h2>
+        <img src="actual_build_1.jpg" alt="Actual Build 1">
+        <img src="actual_build_2.jpg" alt="Actual Build 2">
+        <img src="actual_build_3.jpg" alt="Actual Build 3">
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h2>Google Reviews</h2>
+        <div class="review">
+            <p><strong>John Doe:</strong> Amazing build quality and great customer service!</p>
+        </div>
+        <div class="review">
+            <p><strong>Jane Smith:</strong> My new gaming PC is a beast, thanks to SoHoPCPro!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Name:</strong> Derek Hale</p>
+        <p><strong>Phone:</strong> 832-692-2112</p>
+        <p><strong>Address:</strong> 611 Mississippi St., South Houston, TX 77587</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 SoHoPCPro. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```
+
